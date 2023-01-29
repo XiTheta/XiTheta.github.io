@@ -1,0 +1,46 @@
+body {
+    background-image: radial-gradient(circle, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1, h2, h3 {
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ffff00, 0 0 15px #00ff00;
+    text-transform: uppercase;
+}
+
+a {
+    color: #00ffff;
+    text-decoration: none;
+    border-bottom: 2px solid #ff00ff;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    background-color: #ff00ff;
+    color: #fff;
+    border-color: #fff;
+    text-shadow: none;
+}
+
+img {
+    border: 10px solid #0000ff;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+img:hover {
+    transform: rotate(180deg);
+}

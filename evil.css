@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1, h2, h3 {
+    color: red;
+    text-shadow: 0 0 10px red;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    border-bottom: 2px solid red;
+}
+
+.glow-red {
+    color: red;
+    text-shadow: 0 0 10px red;
+    animation: glow 1s ease-in-out infinite;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px red;
+    }
+    to {
+        text-shadow: 0 0 20px red;
+    }
+}
