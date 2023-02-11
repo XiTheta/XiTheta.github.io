@@ -1,0 +1,19 @@
+
+/* text color */
+
+body, h1, h2, header, footer {
+    border:solid;
+    background-color:blue;
+    color: white;
+    text-shadow: 0 0 10px bwhite
+}
+
+/* text alignment */
+h1, h2,  header, footer {
+    text-align:center
+}
+
+body {
+    font-family: "Lucida Console"
+}
+
