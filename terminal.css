@@ -1,0 +1,30 @@
+
+/* text color */
+
+body, h1, h2, footer {
+    width:800px;
+    border:solid;
+    background-color:black;
+    color: green;
+    text-shadow: 0 0 10px green
+}
+
+/* text alignment */
+h1, h2, footer {
+    text-align:center
+}
+table, td {
+    margin:auto;
+    border-spacing: 5px;
+    border:solid
+}
+
+/* font and text style */
+li {
+    list-style:armenian
+}
+
+body {
+    font-family: "Lucida Console"
+}
+
